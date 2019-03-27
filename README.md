@@ -24,7 +24,6 @@ Node.js는 C++ 기반 V8 엔진 위에서 동작하는 이벤트 처리 I/O 프�
 
 # Node 맛보기
 ```javascript
-// app.js
 const http = require('http'); // 1
 
 http.createServer((request, response) => { // 2
