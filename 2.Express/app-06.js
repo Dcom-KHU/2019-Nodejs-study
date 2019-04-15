@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const helloRouter = express.Router()  // Router 객체 할당
 const goodByeRouter = express.Router()
+// https://www.w3schools.com/nodejs/nodejs_filesystem.asp
+
 
 helloRouter.get('/', (req, res) => res.end('Hello!'))  // Router에 함수 등록
 helloRouter.get('/json', (req, res) => res.json({message: 'Hello!'}))
